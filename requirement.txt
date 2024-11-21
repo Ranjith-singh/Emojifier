@@ -1,0 +1,10 @@
+opencv-python
+pillow
+numpy
+tensorflow
+SpeechRecognition
+pyaudio
+nltk
+streamlit
+spacy
+keras
