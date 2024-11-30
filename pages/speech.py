@@ -60,7 +60,6 @@ def speech_to_text():
  
  
         except Exception as e:
-            st.write("Could not hear you please repeat")
             return ""
             # print("Error :  " + str(e))
 
@@ -106,8 +105,15 @@ print(output)
 
 if output == "":
   #st.write("🙂")
-  font_size = "<h1 style='font-size: 148px;'>" + "🙂" + "</h1>"
-  st.write(font_size, unsafe_allow_html=True)
+  if message == "":
+    st.write("Could not hear you please repeat")
+    font_size = "<h1 style='font-size: 148px;'>" + "🙂" + "</h1>"
+    st.write(font_size, unsafe_allow_html=True)
+  else:
+    st.write("emoji not found or yet to be trained")
+    font_size = "<h1 style='font-size: 148px;'>" + "🙂" + "</h1>"
+    st.write(font_size, unsafe_allow_html=True)
+    
 else:
   #st.write(output)
   font_size = "<h1 style='font-size: 148px;'>" + output + "</h1>"
