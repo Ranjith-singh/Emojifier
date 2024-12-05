@@ -79,7 +79,7 @@ print(output)
 if output == "":
   #st.write("🙂")
   if message == "":
-    st.write("Could not hear you please repeat")
+    st.write("Type in the text")
     font_size = "<h1 style='font-size: 148px;'>" + "🙂" + "</h1>"
     st.write(font_size, unsafe_allow_html=True)
   else:
