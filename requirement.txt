@@ -3,6 +3,7 @@ pillow
 numpy
 tensorflow
 SpeechRecognition
+PyAudio
 pyaudio
 nltk
 streamlit
