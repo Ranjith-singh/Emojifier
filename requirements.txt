@@ -3,7 +3,6 @@ pillow
 numpy
 tensorflow
 SpeechRecognition
-pyaudio-wheels
 nltk
 streamlit
 spacy
