@@ -2,7 +2,6 @@ opencv-python
 pillow
 numpy
 tensorflow
-speech_recognition
 SpeechRecognition
 pyaudio
 nltk
